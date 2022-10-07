@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="brand">
+        <i class="fa-solid fa-qrcode"></i>&nbsp;&nbsp;
+        <h1>Administrator</h1>
+      </div>
+      <ul>
+        <li>
+          <i class="fa-solid fa-gauge"></i>&nbsp;&nbsp;<span>Dashboard</span>
+        </li>
+        <li>
+          <i class="fa fa-graduation-cap"></i>&nbsp;<span>Data Siswa</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-building"></i>&nbsp;&nbsp;<span>Data Guru</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-school"></i>&nbsp;<span>Data Kelas</span>
+        </li>
+        <li>
+            <i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;&nbsp;<span>Biaya</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-info"></i>&nbsp;&nbsp;<span>Bantuan</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-gear"></i>&nbsp;&nbsp;<span>Pengaturan</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <div class="search">
+            <input type="text" placeholder="pencarian..." />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="user">
+            <a href="#" class="btn"><i class="fa-solid fa-user"></i></a>
+            <a href="#" class="btn"><i class="fa-solid fa-bell"></i></a>
+            <a href="#" class="btn"><i class="fa-solid fa-right-from-bracket"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="cards">
+          <div class="card">
+            <div class="box">
+              <h1>3279</h1>
+              <h3>Data Siswa</h3>
+            </div>
+            <div class="icon">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h1>73</h1>
+              <h3>Data Guru</h3>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-building"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h1>7</h1>
+              <h3>Data Kelas</h3>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-school"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h1>$3200</h1>
+              <h3>Biaya</h3>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="content-2">
+          <div class="payments">
+            <div class="title">
+              <h2>Data Pembayaran</h2>
+              <a href="#" class="btn">Lihat Semua</a>
+            </div>
+            <table>
+              <tr>
+                <th>nama</th>
+                <th>kelas</th>
+                <th>bayar</th>
+                <th>Aksi</th>
+              </tr>
+              <tr>
+                <td>Muhammad Ali Ghozi</td>
+                <td>MAS .PPIQ </td>
+                <td>$120000</td>
+                <td><a href="#" class="btn">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>Muhammad Ali Ghozi</td>
+                <td>MAS .PPIQ </td>
+                <td>$120000</td>
+                <td><a href="#" class="btn">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>Muhammad Ali Ghozi</td>
+                <td>MAS .PPIQ </td>
+                <td>$120000</td>
+                <td><a href="#" class="btn">Lihat</a></td>
+              </tr>
+              <tr>
+                <td>Muhammad Ali Ghozi</td>
+                <td>MAS .PPIQ </td>
+                <td>$120000</td>
+                <td><a href="#" class="btn">Lihat</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="students">
+            <div class="title">
+              <h2>Data Siswa</h2>
+              <a href="#" class="btn">Lihat Semua</a>
+            </div>
+            <table>
+              <tr>
+                <th>profil</th>
+                <th>Nama</th>
+                <th>Aksi</th>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td>Muhammad Ali Ghozi</td>
+                <td><i class="fa-solid fa-circle-info"></i></td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td>Muhammad Ali Ghozi</td>
+                <td><i class="fa-solid fa-circle-info"></i></td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td>Muhammad Ali Ghozi</td>
+                <td><i class="fa-solid fa-circle-info"></i></td>
+              </tr>
+              <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td>Muhammad Ali Ghozi</td>
+                <td><i class="fa-solid fa-circle-info"></i></td>
+              </tr>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
